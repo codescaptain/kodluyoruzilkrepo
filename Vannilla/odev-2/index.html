@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+   <div class="container">
+       <div class="container__up">
+       <div class="up__image">
+           <img src="65c832d202a503b15d99e628f4313782f3ef50db-300x62 (1).png" alt="" >
+       </div>
+       <div class="up__heading">
+           <h2>Yapılacaklar Listesi</h2>
+       </div>
+       <div class="up__input">
+           <input type="text" name="todo_input" id="todo_input">
+           <button id="todo_add">Ekle</button>
+       </div>
+       </div>
+       <div class="container__down">
+         <ul id="down__ul" class="down__ul">
+             <li id="todo_done" data-id="0" class="down__text todo_done">
+                 3 Litre Su  
+                 <span data-id="0" id="todo_remove" class="todo_remove">X</span>
+             </li>
+         </ul>
+       </div>
+   </div>
+
+
+
+
+
+
+
+
+<!-- from https://getbootstrap.com/docs/4.3/components/toasts/ -->
+<div class="toast" role="alert" aria-live="assertive" aria-atomic="true" data-delay="2000" style="position: absolute; top: 1rem; right: 1rem;">
+  <div class="toast-header">
+
+    <strong class="mr-auto">Bootstrap</strong>
+    <small>11 mins ago</small>
+    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="toast-body">
+    Hello, world! This is a toast message.
+ </div>
+</div>
+    
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>   
+<script src="index.js"></script>
+</body>
+</html>

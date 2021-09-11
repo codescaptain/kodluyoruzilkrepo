@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container__up {
+    display: flex;
+    flex-direction: column;
+    background-color: coral;
+    align-items: center;
+    padding: 2rem;
+}
+.up__image {
+    background: #ffff;
+}
+
+.up__input {
+    display: flex;
+    flex-direction: row;
+}
+.container__down {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.down__ul {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+}
+ul li:nth-child(even) {
+    background: #eee;
+}
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
+ul li:hover {
+    background: #ddd;
+}
+.down__text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+span {
+    padding: 2rem;
+    cursor: pointer;
+}
